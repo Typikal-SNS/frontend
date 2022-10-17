@@ -1,5 +1,5 @@
-import 'src/assets/css/Sidebar.css';
-import logo from 'src/assets/typikalLogo.svg';
+import '../css/Sidebar.css';
+import logo from '../typikalLogo.svg';
 import { MdHome, MdSearch, MdPerson, MdNotifications, MdPending } from 'react-icons/md'
 /** 설치 : npm install react-icons --save
     참고 : https://react-icons.github.io/react-icons

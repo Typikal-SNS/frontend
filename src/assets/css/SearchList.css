@@ -1,0 +1,78 @@
+@media (min-width:1200px) {
+    .searchList { width: 756px; }
+}
+@media (max-width:1200px){
+    .searchList { width: 100%; }
+}
+
+.searchResult {
+    margin: 16px;
+    margin-bottom: 48px;
+}
+
+.searchResult > h2 {
+    font-size: 18px;
+}
+
+
+/**AccountList.js*/
+.accountResult {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 12px 0px
+}
+
+.accountProfile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.accountInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    height: 42px;
+}
+.accountInfo > h3 {
+    display: inline;
+    font-size: 16px;
+    padding: 0;
+    margin: 2px;
+}
+.accountInfo > p {
+    display: inline;
+    font-size: 12px;
+    color: gray;
+    padding: 0;
+    margin: 2px;
+}
+
+.accountFollow {
+    margin-left: auto;
+    margin-right: 16px;
+    background-color: white; /**그냥 임의의 색, 버튼 컴포넌트로 대체할 것*/
+}
+
+
+/**PostList.js*/
+.postResult {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 12px 0px;
+    height: 48px;
+}
+
+.postIcon {
+    width: 36px;
+    height: 36px;
+    color: #c34c40;
+    padding-left: 10px;
+}
+
+.postResult > h3 {
+    font-size: 16px;
+    padding: 0 10px;
+}
