@@ -1,0 +1,36 @@
+@media (min-width:1200px) {
+    .upload { width: 756px; }
+}
+@media (max-width:1200px){
+    .upload { width: 100%; }
+}
+
+.upload {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.uploadProfile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+
+.uploadPopupBtn {
+    width: 100%;
+    margin-right: 16px;
+    padding: 12px 16px;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 24px;
+    color: #747474;
+    background-color: lightgrey;
+}

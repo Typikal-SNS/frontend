@@ -1,0 +1,30 @@
+@media (min-width:1200px) {
+    .searchBox { width: 752px; }
+}
+@media (max-width:1200px){
+    .searchBox { width: 99%; }
+}
+
+.searchBox {
+    align-items: center;
+    border-radius: 24px;
+
+    background-color: rgba(195, 76, 64, 0.2); /**c34c40 20%*/
+    display: flex;
+    height: 48px;
+}
+
+.searchIcon {
+    color: #c34c40;
+    width: 36px;
+    height: 36px;
+    margin: 0 16px;
+}
+
+.searchInput {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    margin-right: 16px;
+}

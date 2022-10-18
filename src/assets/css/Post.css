@@ -1,0 +1,88 @@
+@media (min-width:1200px) {
+    .post { width: 756px; }
+}
+@media (max-width:1200px){
+    .post { width: 100%; }
+}
+
+.post {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/**postTop*/
+.postTop {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 16px;
+}
+
+.postProfile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    height: 42px;
+}
+.postInfo > h3 {
+    display: inline;
+    font-size: 16px;
+    padding: 0;
+    margin: 2px;
+}
+.postInfo > p {
+    display: inline;
+    font-size: 12px;
+    color: gray;
+    padding: 0;
+    margin: 2px;
+}
+
+.postMenu {
+    color: gray;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+
+/**postContent*/
+.postContent {
+    padding: 0px 20px 16px 20px;
+}
+.postContent > p {
+    font-size: 14px;
+}
+.postContent > img {
+    margin-top: 14px;
+    width: 100%;
+}
+
+.postBottom {
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.postOpt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+.postOpt:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
